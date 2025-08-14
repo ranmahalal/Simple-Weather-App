@@ -1,0 +1,79 @@
+/* Reset default margins and set base font */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #ffffff);
+    color: #333;
+}
+
+/* Center the main weather container */
+#weather-web {
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: #ffffffcc;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Title styling */
+h1 {
+    margin-bottom: 24px;
+    font-size: 28px;
+    color: #00796b;
+}
+
+/* Input section layout */
+.city-input {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+/* Label styling */
+.city-input label {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: left;
+}
+
+/* Input box styling */
+.city-input input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.city-input input[type="text"]:focus {
+    border-color: #00796b;
+}
+
+/* Button styling */
+#search-btn {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#search-btn:hover {
+    background-color: #004d40;
+}
+
+/* Weather display styling */
+#weather-display p {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 500;
+}

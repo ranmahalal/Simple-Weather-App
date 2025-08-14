@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Viewport settings -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Main container -->
+    <div id="weather-web">
+        <h1>Weather Forecast</h1>
+        
+        <!-- user input -->
+        <div class="city-input">
+            <label for="city">Enter City Name:</label>
+            <!-- Input field -->
+            <input type="text" id="city" name="city" placeholder="City name">
+            <button id="search-btn">Search</button>
+            
+        </div>
+
+        
+    
+        <p id="city-name">City: --</p>  <!-- Default content -->
+
+
+        <!-- weather information -->
+        <div id="weather-display">
+            <p id="temperature">Temperature: --°C</p>
+            
+            <!-- weather description (like sunny, cloudy) -->
+            <p id="weather-description">Weather: --</p>
+            
+            <!-- humidity percentage -->
+            <p id="humidity">Humidity: --%</p>
+            
+            <!-- wind speed -->
+            <p id="wind-speed">Wind Speed: -- km/h</p>
+        </div>
+    </div>
+<script src="script.js"></script>
+<script src="config.js"></script>
+</body>
+</html>
